@@ -1,0 +1,5 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S03_ir,IR_sim,Vật thấy rõ trong IR mô phỏng; ảnh RGB cùng cảnh tối khó vẽ,object box,Dễ xác định ranh giới box trên ảnh IR hơn.
+S05_ir,IR_sim,Ảnh IR mô phỏng dễ vẽ; ảnh RGB cùng cảnh tối khó vẽ,box,Dễ xác định ranh giới để vẽ box trên ảnh IR hơn.
+D01,real_IR,Ảnh tối và kính che khiến không phân biệt được mắt mở hay nhắm,eye_right,Gán unknown khi không phân biệt được trạng thái mắt.
+D04,real_IR,Bình nước che miệng nên không xác định được vị trí miệng,face13 điểm miệng,Không đặt điểm nếu không xác định được; dùng outside theo guideline.

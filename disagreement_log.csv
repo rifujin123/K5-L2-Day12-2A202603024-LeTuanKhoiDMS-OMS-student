@@ -1,0 +1,16 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+S09_ir.png,-,image,chỉ có ở peer,,,peer,GUIDE §2 Task 0; §5,Ảnh chỉ có ở peer; kiểm tra phạm vi task vì S09 là ảnh mở rộng.
+S09_rgb.png,-,image,chỉ có ở peer,,,peer,GUIDE §2 Task 0; §5,Ảnh chỉ có ở peer; kiểm tra phạm vi task vì S09 là ảnh mở rộng.
+S10_ir.png,-,image,chỉ có ở peer,,,peer,GUIDE §2 Task 0; §5,Ảnh chỉ có ở peer; kiểm tra phạm vi task vì S10 là ảnh mở rộng.
+S10_rgb.png,-,image,chỉ có ở peer,,,peer,GUIDE §2 Task 0; §5,Ảnh chỉ có ở peer; kiểm tra phạm vi task vì S10 là ảnh mở rộng.
+D01.png,face,eye_right,khác giá trị (IoU=0.79),closed,unknown,peer,4.4-1; 4.5,Sửa eye_right từ closed thành unknown.
+D04.png,face,eye_left,khác giá trị (IoU=0.91),open,closed,mine,4.5,Giữ eye_left = open.
+D04.png,face,eye_right,khác giá trị (IoU=0.91),open,closed,mine,4.5,Giữ eye_right = open.
+D04.png,face,gaze_zone,khác giá trị (IoU=0.91),road,other,mine,4.5,Giữ gaze_zone = road.
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.46,,mine,4.4-5; 4.8,Giữ box của mine; kiểm tra box ôm sát vật.
+S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.4-5; 4.8,Theo box của peer; đối chiếu trên ảnh trước khi sửa.
+S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.46,,mine,4.4-5; 4.8,Giữ box của mine; kiểm tra box ôm sát vật.
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.4-5; 4.8,Theo box của peer; đối chiếu trên ảnh trước khi sửa.
+S05_ir.png,child_seat,seat,khác giá trị (IoU=0.87),rear_left,rear_right,peer,4.4-3; 4.8,Sửa seat từ rear_left thành rear_right.
+S07_ir.png,person,seatbelt,khác giá trị (IoU=0.90),not_worn,unknown,mine,4.7,Giữ seatbelt = not_worn.
+S07_rgb.png,person,seatbelt,khác giá trị (IoU=0.90),not_worn,unknown,mine,4.7,Giữ seatbelt = not_worn.
